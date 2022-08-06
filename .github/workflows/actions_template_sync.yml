@@ -21,4 +21,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source_repo_path: volterra79/test-template-repository-sync
           upstream_branch: main # defaults to main
-          pr_labels: chore,template-sync,example
+          pr_labels: template-sync
